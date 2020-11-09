@@ -1,0 +1,10 @@
+/* stylesheet for all vaporwave theme styles */
+
+.vapor-bg {
+    background-image: url("../img/vaporwave.jpg");
+    background-size: contain; /* Resize the background image to cover the entire container */
+}
+
+.page-title, .page-title+p {
+    color: #f8f9fa;
+}

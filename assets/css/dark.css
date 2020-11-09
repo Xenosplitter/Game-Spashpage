@@ -1,0 +1,9 @@
+/* stylesheet for all dark theme styles */
+
+.dark-bg {
+    background-color: #121212;
+}
+
+.page-title, .page-title+p {
+    color: #f8f9fa;
+}

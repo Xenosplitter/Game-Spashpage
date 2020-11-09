@@ -1,0 +1,65 @@
+/* Author: Casey Rodriguez */
+
+/* All screens */
+main {
+    min-height: 90%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+
+.page-title {
+    padding-top: 1.5%;
+}
+
+/* Small screens */
+@media only screen and (max-width: 640px) {
+    /* Create whitespace on both sides of the page, but allowing the nav underline to span the entire width */
+    header, main {
+        padding: 0 10%;
+    }
+
+    .game-card {
+        margin: 5% auto;
+        max-width: 25rem;
+    }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 641px) and (max-width: 1440px) {
+    /* Create whitespace on both sides of the page, but allowing the nav underline to span the entire width */
+    header, main {
+        padding: 0 10%;
+    }
+
+    nav ul:first-child {
+        padding-left: 10%;
+    }
+
+    .game-card {
+        margin: 5% auto;
+        min-width: 10rem;
+        max-width: 50rem;
+    }
+}
+
+/* Large and bigger screens */
+@media only screen and (min-width: 1441px) {
+    /* Create whitespace on both sides of the page, but allowing the nav underline to span the entire width */
+    header, main {
+        padding: 0 18.75%;
+    }
+
+    nav ul:first-child {
+        padding-left: 18.75%;
+    }
+
+    .game-card {
+        margin: 5% auto;
+        min-width: 15rem;
+        max-width: 50rem;
+    }
+}
